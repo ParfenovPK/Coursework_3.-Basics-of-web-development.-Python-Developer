@@ -1,0 +1,3 @@
+2022-07-03 18:24:45,227 - (DEBUG] - api_logger - (views.py).api_posts_all(28) - Запрошены все посты
+2022-07-03 18:24:55,479 - (DEBUG] - api_logger - (views.py).api_posts_single(40) - Запрошен пост 2
+2022-07-03 18:25:00,094 - (DEBUG] - api_logger - (views.py).api_posts_single(38) - Обращение к несуществующему посту 700

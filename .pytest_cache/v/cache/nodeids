@@ -1,0 +1,20 @@
+[
+  "bp_api/tests/api_test.py::TestApi::test_all_posta_has_correct_status",
+  "bp_api/tests/api_test.py::TestApi::test_all_posts_has_correct_keys",
+  "bp_api/tests/api_test.py::TestApi::test_all_posts_has_correct_status",
+  "bp_api/tests/api_test.py::TestApi::test_single_post_has_correct_keys",
+  "bp_api/tests/api_test.py::TestApi::test_single_post_has_correct_status",
+  "bp_api/tests/api_test.py::TestApi::test_single_posta_has_correct_status",
+  "bp_api/tests/api_test.py::TestApi::test_single_posta_non_existent_shows_404",
+  "bp_posts/tests/comment_dao_test.py::TestCommentsDAO::test_foo",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_all_correct_ids",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_all_fields",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_all_types",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_by_pk_correct_id[1]",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_by_pk_correct_id[2]",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_by_pk_correct_id[3]",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_by_pk_fields",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_by_pk_none",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_get_by_pk_types",
+  "bp_posts/tests/post_dao_test.py::TestPostsDAO::test_search_in_content_types"
+]
