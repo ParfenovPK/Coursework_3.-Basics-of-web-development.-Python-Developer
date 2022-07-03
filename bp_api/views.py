@@ -21,7 +21,7 @@ api_logger = logging.getLogger("api_logger")
 
 @bp_api.route('/posts/')
 def api_posts_all():
-    """Этдпоинт для всех постов"""
+    """Это поинт для всех постов"""
     all_posts: list[Post] = post_dao.get_all()
     all_posts_as_dicts: list[dict] = [post.as_dict() for post in all_posts]
 
@@ -32,7 +32,7 @@ def api_posts_all():
 
 @bp_api.route('/posts/<int:pk>/')
 def api_posts_single(pk: int):
-    """Этдпоинт для одного постоа"""
+    """Это поинт для одного постоа"""
     post: Optional[Post] = post_dao.get_by_pk(pk)
     if post is None:
         api_logger.debug(f"Обращение к несуществующему посту {pk}")

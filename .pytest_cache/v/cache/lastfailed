@@ -1,9 +1,5 @@
 {
   "bp_api/tests/api_test.py::TestApi::test_all_posta_has_correct_status": true,
   "bp_api/tests/api_test.py::TestApi::test_single_posta_has_correct_status": true,
-  "bp_api/tests/api_test.py::TestApi::test_single_posta_non_existent_shows_404": true,
-  "bp_api/tests/api_test.py::TestApi::test_single_post_has_correct_keys": true,
-  "bp_api/tests/api_test.py::TestApi::test_all_posts_has_correct_status": true,
-  "bp_api/tests/api_test.py::TestApi::test_all_posts_has_correct_keys": true,
-  "bp_api/tests/api_test.py::TestApi::test_single_post_has_correct_status": true
+  "bp_api/tests/api_test.py::TestApi::test_single_posta_non_existent_shows_404": true
 }
