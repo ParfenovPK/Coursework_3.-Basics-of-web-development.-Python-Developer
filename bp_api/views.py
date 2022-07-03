@@ -44,7 +44,7 @@ def api_posts_single(pk: int):
 @bp_api.errorhandler(404)
 def api_error_404(error):
     api_logger.error(f"Ошибка{error}")
-    return jsonify({"error": str(error)}), 404
+    return jsonify({"error": str(error)}), 200
 
 
 @bp_api.route('/')
