@@ -68,3 +68,4 @@ def page_posts_search():
                            query=query,
                            posts_len=len(posts)
                            )
+

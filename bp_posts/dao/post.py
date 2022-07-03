@@ -39,3 +39,4 @@ class Post:
             "likes_count": self.likes_count
        }
         return dict_data
+

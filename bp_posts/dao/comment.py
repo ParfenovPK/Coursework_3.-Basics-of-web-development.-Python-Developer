@@ -15,3 +15,4 @@ class Comment:
                f"{self.commenter_name}," \
                f"{self.comment}," \
                f")"
+

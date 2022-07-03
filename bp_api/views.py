@@ -51,3 +51,4 @@ def api_error_404(error):
 def api_posts_hello():
     return "Это фпи. Доступные эндпоинты /api/posts и  /api/posts/<pk>. " \
            "Смотри документацию у меня на гитхабе"
+

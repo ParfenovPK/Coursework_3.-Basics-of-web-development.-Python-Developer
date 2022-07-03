@@ -12,3 +12,4 @@ def config(app):
 
     api_logger_format = logging.Formatter(app.config["LOGGER_FORMAT"])
     api_logger_handler.setFormatter(api_logger_format)
+

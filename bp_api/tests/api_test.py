@@ -51,3 +51,4 @@ class TestApi:
         post = result.get_json()
         assert post["pk"] == pk, "Неправильный pk при запросе поста {pk}"
 
+

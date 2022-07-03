@@ -74,6 +74,3 @@ class PostDAO:
 
         return matching_posts
 
-
-# pd = PostDAO("../../data/posts.json")
-# pp(pd.get_by_user("leo"))
